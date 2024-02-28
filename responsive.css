@@ -1,0 +1,105 @@
+@media (max-width:700px){
+    body{
+        background-color: black;
+    }
+    html{
+        font-size: 14px;
+    }
+    .nav-bar{
+        flex-direction: column;
+        height: 100%;
+        overflow: hidden;
+        padding: 1rem  ;
+    }
+    .nav-bar .nav-bar-item{
+        width: auto;
+        padding: 5px 5px 5px 5px;
+        margin-top: 0.5rem;
+        margin-right: 0;
+    }
+    .nav-bar .nav-bar-item:first-child{
+        margin-top: 0;
+    }
+    .about-us-section{
+        flex-direction: column;
+        padding: 5px;
+        font-size: 6rem;
+    }
+    .about-us-section .content .text{
+        font-size: 2rem;
+    }
+    .about-us-section .image{
+        margin-left: 0;
+        margin-bottom: 1rem;
+        order: 1;
+    } 
+    .flex-container{
+        display: flex;
+        flex-direction: column;
+        background-color:#411111;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 100%;
+    }
+    .flex-container div{
+        background-color:black;
+        color: rgb(184, 184, 180);
+        font-size: 1.5rem;
+        width: 100%;
+        padding-bottom: 10px;
+        
+    }
+    .booking-tab{
+        flex-direction: column;
+        overflow: hidden;
+
+    }
+    .booking-tab div{
+        background-color: transparent;
+        color: rgb(186, 185, 190);
+        font-size: 1.5rem;
+    }
+    .booking-tab .column-tab{
+        width: 100%;
+        background-color: rgb(160, 14, 14);
+        font-size: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .base {
+        flex-direction: column;
+        height: 100%;
+
+    }
+    .form-tab form{
+        flex-direction: column;
+        height: 100%;
+        
+    }
+    
+  .form-tab div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:transparent;
+    color: rgb(204, 201, 201);
+    width: 100%;
+    height: 100%;
+    font-size: 2rem;
+    }
+}   
+@media (min-width:700px){
+    img{
+        display: block;
+    }
+
+}
+/* @media (min-width:700px)and (max-width:1024px) {
+    body{
+        background-color: skyblue;
+    }
+} */
